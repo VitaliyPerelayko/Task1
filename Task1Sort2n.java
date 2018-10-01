@@ -8,7 +8,7 @@ public class Task1Sort2n {
         int[] array = new int[12];
         Random rand = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = rand.nextInt()%100;
+            array[i] = rand.nextInt(100);
         }
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]+" ");
